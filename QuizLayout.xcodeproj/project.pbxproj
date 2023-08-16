@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC7A70B52A8CDE810091AC0E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7A70B42A8CDE810091AC0E /* CardView.swift */; };
 		ACBFD4262A858534008CDB04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBFD4252A858534008CDB04 /* AppDelegate.swift */; };
 		ACBFD4282A858534008CDB04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBFD4272A858534008CDB04 /* SceneDelegate.swift */; };
 		ACBFD42A2A858534008CDB04 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBFD4292A858534008CDB04 /* HomeViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC7A70B42A8CDE810091AC0E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		ACBFD4222A858534008CDB04 /* QuizLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBFD4252A858534008CDB04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACBFD4272A858534008CDB04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC7A70B32A8CDE710091AC0E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC7A70B42A8CDE810091AC0E /* CardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		ACBFD4192A858534008CDB04 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +101,7 @@
 		ACBFD43C2A8587C8008CDB04 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				AC7A70B32A8CDE710091AC0E /* Components */,
 				ACBFD4392A858546008CDB04 /* Home */,
 			);
 			path = Sources;
@@ -176,6 +187,7 @@
 			files = (
 				ACBFD42A2A858534008CDB04 /* HomeViewController.swift in Sources */,
 				ACBFD4262A858534008CDB04 /* AppDelegate.swift in Sources */,
+				AC7A70B52A8CDE810091AC0E /* CardView.swift in Sources */,
 				ACBFD4282A858534008CDB04 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
